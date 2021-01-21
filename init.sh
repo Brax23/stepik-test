@@ -1,3 +1,3 @@
-sudo -ln -sf /home/box/volodyabr/etc/nginx.conf  /etc/nginx/sites-enabled/test.conf
+sudo -ln -sf /home/volodyabr/web/etc/nginx.conf  /etc/nginx/sites-enabled/test.conf
 sudo rm -rf /etc/nginx/sites-enabled/default
 sudo /etc/init.d/nginx restart
